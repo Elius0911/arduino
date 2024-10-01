@@ -4,7 +4,7 @@ const int ledG = 4;
 const int ledB = 5;
 
 int btnState = 0;
-int ledColor = 1;
+int ledColor = 0;
 
 // 定義紅、橙、黃、綠、藍、紫、白的數位值 (1代表HIGH，0代表LOW)
 int colors[7][3] = {
